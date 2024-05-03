@@ -1,15 +1,40 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --fonte: "Inter", sans-serif;
+}
 
 body {
     height: 100vh;
-    width: 100vw;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsla(0, 2%, 10%, 0.938);
+    font-family: var(--fonte);
+    margin: auto;
 }
 
 #container {
     text-align: center;
+    width: 80%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%); 
+}
+
+h3 {
+   color: hsla(0, 2%, 56%, 0.918);
 }
 
 ul {
@@ -18,9 +43,11 @@ ul {
 
 li {
     list-style: none;
-    height: 40px;
-    width: auto;
-    background-color: aqua;
+    height: 45px;
+    background-color: hsla(0, 1%, 29%, 0.87);
     margin: 10px;
     align-content: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400px;
 }
