@@ -60,3 +60,11 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.mencao {
+    color: white;
+}
+
+.mencao a {
+    color: blueviolet;
+}
