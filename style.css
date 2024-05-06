@@ -18,7 +18,6 @@ body {
 
 #container {
     text-align: center;
-    width: 80%;
 }
 
 img {
@@ -45,15 +44,24 @@ ul {
     padding: 0;
 }
 
+ul li {
+    margin-top: 20px;
+}
+
 li {
     list-style: none;
     height: 45px;
     background-color: hsla(0, 1%, 29%, 0.87);
-    margin: 10px;
     align-content: center;
     border-radius: 10px;
     color: white;
     font-weight: 400px;
+    width: 300px;
+    margin: auto;
+}
+
+li:hover {
+    background-color: greenyellow;
 }
 
 a {
@@ -67,4 +75,16 @@ a {
 
 .mencao a {
     color: blueviolet;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: black;
+    }
+
+    #container {
+        background-color: hsla(0, 2%, 10%, 0.938);
+        border-radius: 20px;
+        padding: 25px;
+    }
 }
